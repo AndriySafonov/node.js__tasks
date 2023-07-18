@@ -89,3 +89,50 @@ main ul {
   font-weight: bold;
   list-style-type: none;
 }
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 90%;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c2c2c;
+  border-top: 2px solid #000;
+}
+
+footer span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fcfcfc;
+}
+
+footer input {
+  border: 1px solid silver;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  padding: 7px;
+  margin-right: 10px;
+  outline: none;
+}
+
+footer input:focus {
+  border-color: #dd5353;
+}
+
+footer button {
+  border: 0;
+  background: #dd5353;
+  color: #661f1f;
+  padding: 6px 10px;
+  border-radius: 2px;
+  transition: transform 500ms ease;
+}
+
+footer button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
