@@ -14,14 +14,13 @@
     <%- include('blocks/header') -%>
     <main>
       <h1>User page: <%= username %></h1>
-      <% if(username == 'Andrii') { %>
-
+      <% if(username.toLowerCase() == 'andrii') { %>
       <ul>
         <% hobbies.forEach((el) => { %>
         <li><%= el %></li>
         <% }) %>
       </ul>
-      <%} %>
+      <% } %>
     </main>
     <%- include('blocks/footer') -%>
   </body>
